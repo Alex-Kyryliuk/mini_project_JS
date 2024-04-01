@@ -1,0 +1,85 @@
+body {
+    margin: 5vh 5vw;
+    font-family: "Inconsolata", monospace;
+}
+
+.block {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.block > span {
+    margin: 0;
+    font-size: 1.5em;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.block > p {
+    margin: 0 5px;
+    font-size: 1.5em;
+}
+
+.wrapper-ul {
+    margin: 0;
+}
+
+.wrap-ul > p {
+    font-size: 1.3em;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 15px 0 5px 0;
+}
+
+.wrapper-ul li {
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin: 7px 0;
+
+}
+
+button {
+    margin-top: 15px;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 90vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#postsContainer {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    gap: 2%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 27vh;
+    border: 3px #04AA6D solid;
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(223, 226, 243, 0.71);
+}
+
+.post > p,
+.post > h3 {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.post > button {
+    margin: 0;
+    width: 15vw;
+}
+

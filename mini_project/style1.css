@@ -1,0 +1,37 @@
+body {
+    font-family: "Inconsolata", monospace;
+}
+
+.divWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2%;
+}
+
+.divUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    border: 3px #04AA6D solid;
+    border-radius: 15px;
+    background: rgba(223, 226, 243, 0.71);
+}
+
+p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 15vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

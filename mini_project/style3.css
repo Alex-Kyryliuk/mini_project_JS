@@ -1,0 +1,32 @@
+body {
+    margin: 5vh 5vw;
+    font-family: "Inconsolata", monospace;
+}
+
+.post_details {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.post_details > p {
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+
+.wrapper_post_comment {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.post_comment {
+    border: 3px #04AA6D solid;
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(223, 226, 243, 0.71);
+}
+
+.post_comment > p {
+    margin: 10px 0;
+}
